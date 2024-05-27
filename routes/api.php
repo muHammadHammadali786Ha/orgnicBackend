@@ -12,3 +12,4 @@ use Illuminate\Support\Facades\Route;
 // User Apies
 Route::post('/register',[userController::class,'Register']);
 Route::post('/login',[userController::class,'Login']);
+Route::post('/logout',[userController::class,'LogOut']);
